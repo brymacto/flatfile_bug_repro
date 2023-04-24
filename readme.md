@@ -10,7 +10,7 @@ Summary of the bug: with this configuration and file, rows that are not meeting 
 
 
 ## Steps to reproduce
-- Upload the `file_for_upload.xlsx` to the uploader
+- Upload the `file_for_upload.csv` to the uploader
 - Match the columns. First column leave unmapped.
 - Review the data. Note that one invalid row has been highlighted due to an invalid 'Required column' value.
 - Click continue and submit the data. When prompted, select 'Discard 1 row with issues. Submit the rest.'
