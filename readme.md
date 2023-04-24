@@ -26,3 +26,5 @@ The conditions to produce the bug appear to be to have a column that is unmapped
 
 ## Screenshots
 
+<img width="1486" alt="Screenshot 2023-04-23 at 10 16 48 PM" src="https://user-images.githubusercontent.com/10377354/233885070-42cda7c2-3a44-4c12-89b4-00ac2fea7774.png">
+<img width="499" alt="Screenshot 2023-04-23 at 10 16 53 PM" src="https://user-images.githubusercontent.com/10377354/233885085-5b855e11-73c8-4793-b8f9-bfa0649e987b.png">
