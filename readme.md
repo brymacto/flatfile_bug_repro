@@ -19,10 +19,10 @@ The conditions to produce the bug appear to be to have a column that is unmapped
 - Note that the data is not being submitted to a server, but the result is being logged to the console. Review the result.
 
 ## Expected behavior
-- 6 valid rows should be submitted
+- 5 valid rows should be submitted
 
 ## Actual behavior
-- 17 rows are submitted, 12 of which include `undefined` values for the required column
+- 17 rows are submitted, 12 of which include `undefined` values for the required column. Only 1 of the 18 rows has been discarded.
 
 ## Screenshots
 
