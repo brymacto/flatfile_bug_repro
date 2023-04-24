@@ -27,34 +27,6 @@ export function App() {
             label: "Option C",
             key: "option_c",
             type: "checkbox",
-            validators: [
-              {
-                validate: "required_without_all",
-                fields: ["option_m", "option_t"],
-              },
-            ],
-          },
-          {
-            label: "Option M",
-            key: "option_m",
-            type: "checkbox",
-            validators: [
-              {
-                validate: "required_without_all",
-                fields: ["option_c", "option_t"],
-              },
-            ],
-          },
-          {
-            label: "Option T",
-            key: "option_t",
-            type: "checkbox",
-            validators: [
-              {
-                validate: "required_without_all",
-                fields: ["option_c", "option_m"],
-              },
-            ],
           },
         ],
         managed: true,
